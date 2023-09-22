@@ -1,12 +1,14 @@
-import React from 'react'
-
+import React from "react";
+import { Typography } from "@mui/material";
 const First = () => {
   return (
     <>
-    
-    <h1>this is function one</h1> 
+      <Typography varient="h1" sx={{ color: "red " }}>
+        Karimullah
+      </Typography>
+      <h1>this is function one</h1>
     </>
-  )
-}
+  );
+};
 
-export default First
+export default First;
