@@ -1,10 +1,11 @@
-import First from "./Component/First";
+ 
+import Master from "./Component/Layouts/Master";
 
 const App = () => {
   return (
     <>
       <div className="App">
-        <First></First>
+        <Master></Master>
       </div>
       ;
     </>
